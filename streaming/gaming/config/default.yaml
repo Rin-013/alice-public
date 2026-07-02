@@ -1,0 +1,72 @@
+# =============================================================================
+# Alice Gaming - Default Configuration
+# =============================================================================
+
+# --- Mixer ---
+mixer:
+  base_weight: 0.3        # Base Alice influence (0 = pure NitroGen, 1 = pure directive)
+  urgency_scale: 0.7      # How much urgency amplifies blend weight
+  max_weight: 0.95        # Never fully override NitroGen
+  smoothing: 0.15         # Exponential smoothing factor for blend transitions
+  passthrough_on_empty: true  # When no directive, pass NitroGen through unchanged
+
+# --- Behavior Modes ---
+behavior:
+  default_mode: entertainer
+  transition_cooldown_sec: 5.0   # Min time between mode transitions
+  # Mode-specific mixer bias (added to base_weight when in that mode)
+  mode_bias:
+    tryhard: 0.15
+    entertainer: 0.0
+    chill: -0.1
+    rage: 0.1
+    curious: -0.05
+    clutch: 0.25
+
+# --- Director ---
+director:
+  tick_rate_hz: 6.0          # How often the director evaluates game state
+  health_critical_threshold: 0.25
+  combat_urgency_boost: 0.3
+  death_rage_chance: 0.4     # Probability of entering rage mode on death
+  exploration_curiosity_chance: 0.3
+
+# --- Commentary ---
+commentary:
+  min_gap_sec: 3.0           # Minimum seconds between commentary lines
+  max_queue_size: 10
+  ttl_sec: 15.0              # Commentary requests expire after this
+  interrupt_priority: 3      # Min priority to interrupt current speech
+  # TTS default instruct (always passed, never empty)
+  default_tts_instruct: "Speak naturally with a playful tone"
+
+# --- Capture ---
+capture:
+  target_fps: 60
+  width: 1280
+  height: 720
+  format: bgr
+
+# --- Vision / NitroGen ---
+vision:
+  input_size: [224, 224]
+  snapshot_interval_frames: 10  # Send game state snapshot to Alice every N frames
+  mock_action_noise: 0.1       # Random noise for mock NitroGen
+
+# --- Input ---
+input:
+  controller_type: mock    # mock | vgamepad | titan_two
+  deadzone: 0.05           # Stick deadzone
+
+# --- Comms ---
+comms:
+  bridge_type: local       # local | socket
+  socket_host: "127.0.0.1"
+  socket_port: 9500
+  queue_maxsize: 64
+
+# --- Timing ---
+timing:
+  main_loop_fps: 60
+  director_fps: 6
+  commentary_check_hz: 2

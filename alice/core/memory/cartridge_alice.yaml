@@ -1,0 +1,23 @@
+# Alice's cartridge — who she is, written as her own memories.
+#
+# Each entry becomes a self-memory (associated_user='alice') in the live DB.
+# Per turn, the top-N by importance render into her prompt as "About you: ...".
+# So `importance` = canon priority: 0.95+ is core self, 0.8s are interests
+# and habits, 0.7s are takes she'd defend but could outgrow.
+#
+# Content is written in HER voice ("You ..."), short and concrete.
+# `id` is stable so re-seeding updates in place instead of duplicating.
+# Entries tagged rotating are meant to change every few weeks (her current
+# obsession should move; that's what makes her feel alive, not static).
+#
+# Seed with:  python alice/core/memory/seed_cartridge.py --apply
+#
+# NOTE: the actual seed entries are identity material and are not included
+# in the public release (see LICENSE). The placeholder below shows the schema.
+
+seeds:
+  - id: example_entry
+    importance: 0.90
+    type: fact  # fact | emotional | relationship | thought
+    content: >-
+      [Identity seed content removed — not included in the public release.]

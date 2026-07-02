@@ -1,0 +1,17 @@
+{
+  "emotion": "excited",
+  "confidence": 1.0,
+  "timestamp": 1780451069.0135972,
+  "is_speaking": false,
+  "scores": {
+    "neutral": 0.0,
+    "happy": 0.0,
+    "excited": 1.0,
+    "sassy": 0.0,
+    "sad": 0.0,
+    "angry": 0.0,
+    "surprised": 0.0,
+    "thinking": 0.0,
+    "tired": 0.0
+  }
+}

@@ -1,0 +1,710 @@
+{
+  "default_parameters": [
+    {
+      "name": "FacePositionX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -15.0,
+      "max": 15.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FacePositionY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -15.0,
+      "max": 15.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FacePositionZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FaceAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FaceAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FaceAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -90.0,
+      "max": 90.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MouthSmile",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MouthOpen",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "Brows",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "TongueOut",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "CheekPuff",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "FaceAngry",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "BrowLeftY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "BrowRightY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeOpenLeft",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeOpenRight",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeLeftX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeLeftY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeRightX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "EyeRightY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MousePositionX",
+      "addedBy": "VTube Studio",
+      "value": -0.4394558072090149,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MousePositionY",
+      "addedBy": "VTube Studio",
+      "value": 0.6013001203536987,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceVolume",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceFrequency",
+      "addedBy": "VTube Studio",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceVolumePlusMouthOpen",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceFrequencyPlusMouthSmile",
+      "addedBy": "VTube Studio",
+      "value": 0.5,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceA",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceI",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceU",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceE",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceO",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "VoiceSilence",
+      "addedBy": "VTube Studio",
+      "value": 1.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MouthX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFound",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFound",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "BothHandsFound",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandDistance",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftPositionX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftPositionY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftPositionZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightPositionX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightPositionY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightPositionZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftOpen",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightOpen",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFinger_1_Thumb",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFinger_2_Index",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFinger_3_Middle",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFinger_4_Ring",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandLeftFinger_5_Pinky",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFinger_1_Thumb",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFinger_2_Index",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFinger_3_Middle",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFinger_4_Ring",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "HandRightFinger_5_Pinky",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiConnected",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": 0.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiHipAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -10.0,
+      "max": 10.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyPositionX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyPositionY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiBodyPositionZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -1.0,
+      "max": 1.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperArmLeftAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -90.0,
+      "max": 90.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperArmLeftAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperArmRightAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -90.0,
+      "max": 90.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperArmRightAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmLeftAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmLeftAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -90.0,
+      "max": 90.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmLeftAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmRightAngleX",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmRightAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -90.0,
+      "max": 90.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerArmRightAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -180.0,
+      "max": 180.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperLegLeftAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperLegLeftAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperLegRightAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiUpperLegRightAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerLegLeftAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerLegLeftAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerLegRightAngleY",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    },
+    {
+      "name": "MocopiLowerLegRightAngleZ",
+      "addedBy": "VTube Studio",
+      "value": 0.0,
+      "min": -30.0,
+      "max": 30.0,
+      "defaultValue": 0.0
+    }
+  ],
+  "custom_parameters": [],
+  "total_count": 88
+}

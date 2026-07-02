@@ -1,0 +1,187 @@
+# Python
+__pycache__/
+.venv_tts/
+.venv_chatterbox/
+.venv_kokoro/
+.venv_moss/
+.venv_moss_realtime/
+.venv_voxcpm/
+
+# Stray pip install artifacts (files named like pip constraint specs)
+=[0-9]*
+=*.*
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Testing & Coverage
+.pytest_cache/
+.mypy_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Large log files only
+training_live.log
+temporal_consciousness_*.log
+
+# Large model files (too big for git)
+models/
+outputs/
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.onnx
+*.npy
+*.safetensors
+
+# Allow MLX model configs (small json files)
+!models/**/*.json
+
+# Allow x-vector speaker embeddings (small .pt files, ~16KB each)
+!models/**/*xvector*.pt
+
+# Allow precomputed TTS decoder pad-context ref_code tensor (~26KB)
+# (avoids shipping a wav; keeps streaming clean without a per-init encode)
+!models/**/alice_ref_code.pt
+
+# Large folders (stored locally, not in git)
+fish-speech/
+star_moon_jelly/
+research/vtuber_systems/
+
+# Large files in motor/
+motor/**/*.zip
+motor/**/*.mov
+motor/**/combined_dataset.csv
+
+# Large training session folders
+training_session_01/
+training_session_02/
+archive_pre_v4/data_old/
+archive_pre_v4/cognition_old_loop/
+archive_pre_v4/training_session_01/
+archive_pre_v4/training_session_02/
+
+# Training data - track datasets folder explicitly
+*.jsonl
+!training/datasets/*.jsonl
+!training/*.jsonl
+!training/sft/*.jsonl
+
+# Large database temp files only
+*.db-journal
+*.db-shm
+*.db-wal
+
+# Runtime IRIS state (gate counters, bandit checkpoints, etc.)
+alice/data/curator_state.json
+
+# Runtime scheduled tasks (user-created crons + last-fired anchors)
+alice/data/scheduled_tasks.json
+
+# Drive layer parameters (learned by Mind's reflection sweeps; defaults in code)
+alice/data/drive_params.json
+
+# Lily — persistent learning DB + scratch, gitignored
+alice/data/lily/*.db
+alice/data/lily/*.db-journal
+alice/data/lily/learned_patterns/
+
+# Spark — large data files + checkpoints, not in git (was alice/emotion_stack/ pre-Apr 28)
+alice/data/spark/data/*.json
+alice/data/spark/checkpoints/
+alice/data/spark/wandb/
+# Runpod packaging artifacts
+emotion_stack_runpod.tar.gz
+emotion_stack_checkpoints.tar.gz
+spark_runpod.tar.gz
+spark_checkpoints.tar.gz
+
+# Allow Spark source models dir (bypasses top-level models/ ignore)
+!alice/core/spark/models/
+!alice/core/spark/models/**
+
+# Large data files
+*.npz
+data/alice_vm_embeddings.npz
+data/alice_vm_metadata.json
+
+# Large archive data (old LSTM, mocap, discriminator)
+motor/animation/archive/lstm_tools/processed*/
+motor/animation/archive/discriminator/discriminator_data/
+motor/animation/archive/misc/motion*.zip
+motor/animation/archive/misc/motion capture/
+motor/animation/tools/session_01/*.mp4
+motor/animation/tools/session_01/*.csv
+
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+venv/
+ENV/
+env/
+secrets/
+*.key
+*.pem
+credentials.json
+config/secrets.yaml
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# iCloud Drive sync conflicts ("Foo 2.py" shadows of canonical files)
+* 2.py
+* 2.md
+* 2.json
+* 2.db
+* 2.log
+* 2.sh
+* 2.yaml
+* 2.yml
+* 2.txt
+* 2.lock
+
+# Runtime artifacts
+logs/
+*.wav
+*.faiss
+*.pkl
+.claude/scheduled_tasks.lock
+
+# Temporary/generated
+*.tmp
+*.bak
+*.backup
+.cache/
+*.zip

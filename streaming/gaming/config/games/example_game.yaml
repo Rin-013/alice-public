@@ -1,0 +1,33 @@
+# =============================================================================
+# Example Game Config
+# =============================================================================
+# Copy this file and modify for specific games.
+# Game configs override default.yaml and hardware/*.yaml settings.
+
+# Game identity
+game:
+  name: "Example Game"
+  genre: "action_rpg"
+
+# Override mixer for this game
+mixer:
+  base_weight: 0.35
+  urgency_scale: 0.6
+
+# Override behavior for this game
+behavior:
+  default_mode: entertainer
+  mode_bias:
+    tryhard: 0.2
+    clutch: 0.3
+
+# Override director thresholds
+director:
+  health_critical_threshold: 0.3
+  combat_urgency_boost: 0.25
+  death_rage_chance: 0.5
+
+# Override commentary style
+commentary:
+  min_gap_sec: 4.0
+  default_tts_instruct: "Speak with an excited, gaming energy"

@@ -1,0 +1,2491 @@
+{
+  "model": "star_moon_jellyfish",
+  "parameters": [
+    {
+      "id": "Param105",
+      "name": "chest_y1",
+      "group": "9axis_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.9axis_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param106",
+      "name": "chest_y2",
+      "group": "9axis_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.9axis_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param95",
+      "name": "chest_x1",
+      "group": "9axis_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.9axis_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param96",
+      "name": "chest_x2",
+      "group": "9axis_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.9axis_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param136",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param137",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param165",
+      "name": "angle_correction_x",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param166",
+      "name": "angle_correction_y",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param65",
+      "name": "position_x",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "ParamAngleX",
+      "name": "angle_x",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamAngleX2",
+      "name": "angle_x_modified",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamAngleX3",
+      "name": "angle_y_modified",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamAngleX4",
+      "name": "angle_z_modified",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamAngleY",
+      "name": "angle_y",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamAngleZ",
+      "name": "angle_z",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamAngleZ2",
+      "name": "z",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamAngleZ3",
+      "name": "position z",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamAngleZ4",
+      "name": "* position z",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleX",
+      "name": "body_rotation_x",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamBodyAngleX2",
+      "name": "hip_twist",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleX6",
+      "name": "stride_l",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleX7",
+      "name": "stride_r",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleY2",
+      "name": "Y1",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleY3",
+      "name": "body_rotation_y",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleZ3",
+      "name": "body_twist_z2_correction",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleZ4",
+      "name": "z2",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBodyAngleZ5",
+      "name": "body_twist_z",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "pose.body",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBreath",
+      "name": "breathing",
+      "group": "angle",
+      "control_type": "continuous",
+      "tags": [
+        "idle.breath"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "Param138",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param141",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param171",
+      "name": "arm_l1",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param172",
+      "name": "arm_l2",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param173",
+      "name": "arm_l3",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param175",
+      "name": "arm_r1",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param176",
+      "name": "arm_r2",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param177",
+      "name": "arm_r3",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param178",
+      "name": "sleeve_l1",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param179",
+      "name": "sleeve_l2",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param180",
+      "name": "sleeve_l3",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param181",
+      "name": "sleeve_r1",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param182",
+      "name": "sleeve_r2",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param183",
+      "name": "sleeve_r3",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param184",
+      "name": "arm_l4",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param187",
+      "name": "arm_l5",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param188",
+      "name": "arm_r4",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param189",
+      "name": "arm_r5",
+      "group": "arms",
+      "control_type": "continuous",
+      "tags": [
+        "pose.arms"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param123",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param124",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param126",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param129",
+      "name": "ribbon_r",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param140",
+      "name": "ribbon_r2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param142",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param143",
+      "name": "lace_x1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param144",
+      "name": "lace_y1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param145",
+      "name": "lace_x2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param146",
+      "name": "lace_y2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param16",
+      "name": "skirt_pleat_x1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param161",
+      "name": "ribbon_l2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param162",
+      "name": "ribbon_r3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param17",
+      "name": "skirt_pleat_x2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param186",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param19",
+      "name": "skirt_pleat_y1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param190",
+      "name": "long_ribbon_l",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param191",
+      "name": "long_ribbon_l2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param194",
+      "name": "long_ribbon_l3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param198",
+      "name": "long_ribbon_l",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param199",
+      "name": "long_ribbon_l2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param20",
+      "name": "skirt_pleat_y2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param201",
+      "name": "long_ribbon_l3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param21",
+      "name": "skirt_pleat_y3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param24",
+      "name": "total_skirt_pleat_x1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param25",
+      "name": "total_skirt_pleat_x2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param89",
+      "name": "total_skirt_pleat_x3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param90",
+      "name": "total_skirt_pleat_x4",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param92",
+      "name": "ribbon_l",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param93",
+      "name": "ribbon_l3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamdressY1",
+      "name": "skirt_y1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamdressY2",
+      "name": "skirt_y2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamdressY3",
+      "name": "skirt_y0",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Paramdressx1",
+      "name": "skirt_x1",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Paramdressx2",
+      "name": "skirt_x2",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Paramdressx3",
+      "name": "skirt_x3",
+      "group": "body_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.body_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param10",
+      "name": "open_close_r",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param113",
+      "name": "emotion",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param115",
+      "name": "up_down_r",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param116",
+      "name": "emotion",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param13",
+      "name": "tail_flip",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears",
+        "mouth"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "Param30",
+      "name": "tail1",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param32",
+      "name": "tail1",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param37",
+      "name": "tail1",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param50",
+      "name": "deform_l1",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param51",
+      "name": "deform_r1",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param52",
+      "name": "deform_l3",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param53",
+      "name": "deform_r3",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param55",
+      "name": "deform_l2",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param56",
+      "name": "up_down_l",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param66",
+      "name": "deform_r2",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param9",
+      "name": "open_close_l",
+      "group": "ears",
+      "control_type": "continuous",
+      "tags": [
+        "ears"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamBrowLAngle3",
+      "name": "eyes_up_down",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows",
+        "eyes",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowLAngle5",
+      "name": "right_eye_up_down",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows",
+        "eyes",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowRAngle3",
+      "name": "brow_deform",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowRAngle7",
+      "name": "right_brow_angle1",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows",
+        "pose.head"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowRY",
+      "name": "brow_up_down",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowRY2",
+      "name": "brow_up_down0",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamBrowRY3",
+      "name": "brow_happy_sad",
+      "group": "eyebrows",
+      "control_type": "continuous",
+      "tags": [
+        "brows"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamEyeBallX",
+      "name": "eyeball_x",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.gaze"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamEyeBallY",
+      "name": "eyeball_y",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.gaze"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamEyeLOpen",
+      "name": "left_eye_open_close",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.open"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamEyeLSmile",
+      "name": "left_eye_smile",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.smile"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamEyeROpen",
+      "name": "right_eye_open_close",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.open"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamEyeRSmile",
+      "name": "right_eye_smile",
+      "group": "eyes",
+      "control_type": "continuous",
+      "tags": [
+        "eyes",
+        "eyes.smile"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "Param11",
+      "name": "l_highlight1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param111",
+      "name": "r_highlight2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param118",
+      "name": "r_highlight3",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param12",
+      "name": "l_highlight2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param164",
+      "name": "pupil_scale_l",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param167",
+      "name": "pupil_scale_r",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param18",
+      "name": "l_highlight3",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param2",
+      "name": "l_eye_socket1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param22",
+      "name": "r_eye_socket2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param23",
+      "name": "r_eyelash1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param3",
+      "name": "l_eye_socket2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param4",
+      "name": "l_eyelash1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param5",
+      "name": "l_eyelash2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param58",
+      "name": "r_eyelash2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param59",
+      "name": "r_pupil1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param6",
+      "name": "l_pupil1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param7",
+      "name": "l_pupil2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param8",
+      "name": "r_eye_socket1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param87",
+      "name": "r_pupil2",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param91",
+      "name": "r_highlight1",
+      "group": "eyes_physics",
+      "control_type": "derived",
+      "tags": [
+        "eyes",
+        "physics.eyes_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param15",
+      "name": "frill1",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param163",
+      "name": "frill_y1",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param169",
+      "name": "frill3",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param170",
+      "name": "frill2",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param174",
+      "name": "frill_y2",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param204",
+      "name": "hand_sleeve_l1",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param206",
+      "name": "hand_sleeve_l2",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param207",
+      "name": "hand_sleeve_l3",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param208",
+      "name": "hand_sleeve_l4",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param209",
+      "name": "hand_sleeve_r1",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param210",
+      "name": "hand_sleeve_r2",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param211",
+      "name": "hand_sleeve_r3",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param212",
+      "name": "hand_sleeve_r4",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param213",
+      "name": "hand_sleeve_l1",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param214",
+      "name": "hand_sleeve_l2",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param215",
+      "name": "hand_sleeve_l3",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param218",
+      "name": "hand_sleeve_l4",
+      "group": "frill",
+      "control_type": "continuous",
+      "tags": [
+        "frill"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param121",
+      "name": "back_hair_x4",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param122",
+      "name": "\u25a0\u25a0\u25a0\u25a0\u25a0\u25a0",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param168",
+      "name": "front_hair_y3",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param185",
+      "name": "front_hair_y4",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param26",
+      "name": "left_side_hair1_4",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param27",
+      "name": "left_side_hair1_3",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param28",
+      "name": "left_side_hair1_2",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param29",
+      "name": "left_side_hair1_1",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param33",
+      "name": "right_side_hair1_4",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param34",
+      "name": "right_side_hair1_3",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param35",
+      "name": "right_side_hair1_2",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param36",
+      "name": "right_side_hair1_1",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param43",
+      "name": "front_hair_y1",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param54",
+      "name": "back_hair_x",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param60",
+      "name": "back_hair_x2",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param64",
+      "name": "back_hair_x3",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param88",
+      "name": "front_hair_y2",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamHairX",
+      "name": "hair_overall_x",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamHairX3",
+      "name": "hair_overall_y",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "ParamHairY2",
+      "name": "hair_overall_y2",
+      "group": "hair_physics",
+      "control_type": "derived",
+      "tags": [
+        "physics.hair_physics"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param202",
+      "name": "== EXPRESSIONS ==",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.==_expressions_==",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param203",
+      "name": "== ACTIONS ==",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.==_actions_==",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param205",
+      "name": "== ACCESSORIES ==",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.==_accessories_==",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param216",
+      "name": "== FACE_TUNING ==",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.==_face_tuning_==",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase19",
+      "name": "arm L",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.arm_l",
+        "pose.arms",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase21",
+      "name": "arm R",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.arm_r",
+        "pose.arms",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase53",
+      "name": "star_eyes",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "eyes",
+        "hotkey.star_eyes",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase54",
+      "name": "dark_face",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.dark_face",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase55",
+      "name": "blushing",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.blushing",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase56",
+      "name": "crying",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.crying",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase57",
+      "name": "heart_eyes",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "eyes",
+        "hotkey.heart_eyes",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase61",
+      "name": "flying_head",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.flying_head",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase62",
+      "name": "angry_mouth",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.angry_mouth",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase63",
+      "name": "zzz_mouth",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.zzz_mouth",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase64",
+      "name": "upper_teeth",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.upper_teeth",
+        "mouth",
+        "mouth.teeth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase65",
+      "name": "moon_hairclip",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.moon_hairclip",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase66",
+      "name": "dizzy",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.dizzy",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase67",
+      "name": "animal_ears",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "hotkey.animal_ears",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase68",
+      "name": "messy_hair",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.messy_hair",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase69",
+      "name": "back_skirt",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.back_skirt",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase70",
+      "name": "left_jellyfish",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.left_jellyfish",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase71",
+      "name": "right_jellyfish2",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.right_jellyfish2",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase72",
+      "name": "heart_gesture",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "hotkey.heart_gesture",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase73",
+      "name": "holding_star",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.holding_star",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase74",
+      "name": "zzz_icon",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.zzz_icon",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase75",
+      "name": "eyes disappear",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "eyes",
+        "hotkey.eyes_disappear",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase76",
+      "name": "mouth disappear",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "hotkey.mouth_disappear",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase77",
+      "name": "zzz_brows",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "brows",
+        "hotkey.zzz_brows",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase78",
+      "name": "highlight_hide",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.highlight_hide",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase79",
+      "name": "shark_tail",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.shark_tail",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase80",
+      "name": "watermark",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.watermark",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase81",
+      "name": "speechless_brows",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "brows",
+        "hotkey.speechless_brows",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase82",
+      "name": "eyebrow disappear",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "brows",
+        "ears",
+        "eyes",
+        "hotkey.eyebrow_disappear",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase83",
+      "name": "black_eyes",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "eyes",
+        "hotkey.black_eyes",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase84",
+      "name": "eye_roll",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "eyes",
+        "hotkey.eye_roll",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase85",
+      "name": "tongue_out",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.tongue_out",
+        "mouth",
+        "mouth.tongue",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase86",
+      "name": "covering_chest",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.covering_chest",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase87",
+      "name": "speechless_droplet",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.speechless_droplet",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase88",
+      "name": "shrink",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.shrink",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase89",
+      "name": "shrink",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.shrink",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase90",
+      "name": "angry",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.angry",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase92",
+      "name": "praying",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.praying",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase93",
+      "name": "shark_hairclip",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.shark_hairclip",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase94",
+      "name": "pearl_hairclip",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "ears",
+        "hotkey.pearl_hairclip",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase95",
+      "name": "hairclip",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.hairclip",
+        "mouth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase96",
+      "name": "shark_teeth",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.shark_teeth",
+        "mouth",
+        "mouth.teeth",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "fase97",
+      "name": "halo",
+      "group": "hotkey",
+      "control_type": "toggle",
+      "tags": [
+        "hotkey.halo",
+        "toggle.hotkey"
+      ],
+      "importance": "support"
+    },
+    {
+      "id": "Param",
+      "name": "highlight_idle_loop",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param14",
+      "name": "highlight_idle",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param31",
+      "name": "crying1",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param42",
+      "name": "crying2",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param57",
+      "name": "angry2",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param63",
+      "name": "highlight_idle",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param67",
+      "name": "ZZZ",
+      "group": "idle",
+      "control_type": "derived",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param128",
+      "name": "mouth_puff_cheeks",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "Param139",
+      "name": "crooked_mouth",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "Param147",
+      "name": "mouth_chew",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "Param148",
+      "name": "mouth_pout",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "Param155",
+      "name": "funnel",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param160",
+      "name": "press lip open",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.open"
+      ],
+      "importance": "secondary"
+    },
+    {
+      "id": "ParamMouthForm",
+      "name": "mouth_horizontal",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.shape"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamMouthForm2",
+      "name": "mouth_deform",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.shape"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamMouthForm3",
+      "name": "mouth_width",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.shape"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamMouthForm4",
+      "name": "mouth_height",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.shape"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "ParamMouthOpenY",
+      "name": "mouth_open_close",
+      "group": "mouth",
+      "control_type": "continuous",
+      "tags": [
+        "mouth",
+        "mouth.open"
+      ],
+      "importance": "primary"
+    },
+    {
+      "id": "Param38",
+      "name": "0",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param40",
+      "name": "1",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param79",
+      "name": "2",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param80",
+      "name": "accessory_physics1",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param81",
+      "name": "accessory_physics2",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param82",
+      "name": "accessory_physics3",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    },
+    {
+      "id": "Param83",
+      "name": "accessory_physics3",
+      "group": "spare",
+      "control_type": "continuous",
+      "tags": [],
+      "importance": "support"
+    }
+  ]
+}
